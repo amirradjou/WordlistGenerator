@@ -6,7 +6,7 @@ def generator(comb, dic, temp, mf):
             generator(comb - 1, dic, temp + item, mf)
 
 
-print("Please enter filename!")
+print("Please enter filegname!")
 file_name = input()
 print('Please enter combination times!')
 comb_time = input()
